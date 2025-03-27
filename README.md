@@ -15,9 +15,9 @@ SmartFarm is an IoT-powered greenhouse automation system that intelligently moni
 ✅ Data storage with InfluxDB time-series database  
 ✅ Responsive REST API for remote management  
 ##  🛠 Tech stack 
--**Hardware** : Raspberry Pi + Sensors (DHT22..)
--**Backend**: Node.js + Express
--**Database** : InfluxDB (optimized for time-series data)
+- **Hardware** : Raspberry Pi + Sensors (DHT22..)
+- **Backend**: Node.js + Express
+- **Database** : InfluxDB (optimized for time-series data)
 ## Hardware Setup
 ### Required Components
 | Component | Quantity |
