@@ -19,6 +19,14 @@ SmartFarm is an IoT-powered greenhouse automation system that intelligently moni
 - **Backend**: Node.js + Express
 - **Database** : InfluxDB (optimized for time-series data)
   **⚠️ Required:** Enable Flux queries in InfluxDB by adding `flux-enabled = true` under `[http]` in `/etc/influxdb/influxdb.conf` then restart with `sudo systemctl restart influxdb`
+
+ First, launch the InfluxDB server:
+```influxd.exe -config "C:\Program Files\InfluxData\influxdb\influxdb.conf```
+Open a new terminal and connect:
+````influx -host 127.0.0.1 -port 8086````
+
+# Linux/macOS
+sudo influxd
 ## Hardware Setup
 ### Required Components
 | Component | Quantity |
