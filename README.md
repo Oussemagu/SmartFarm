@@ -18,6 +18,7 @@ SmartFarm is an IoT-powered greenhouse automation system that intelligently moni
 - **Hardware** : Raspberry Pi + Sensors (DHT22..)
 - **Backend**: Node.js + Express
 - **Database** : InfluxDB (optimized for time-series data)
+  **⚠️ Required:** Enable Flux queries in InfluxDB by adding `flux-enabled = true` under `[http]` in `/etc/influxdb/influxdb.conf` then restart with `sudo systemctl restart influxdb`
 ## Hardware Setup
 ### Required Components
 | Component | Quantity |
