@@ -1,7 +1,7 @@
 # SmartFarm - IoT Greenhouse Monitoring System 🌿📈
 SmartFarm is an IoT-powered greenhouse automation system that intelligently monitors and controls environmental conditions using a Raspberry Pi and Node.js backend.
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
-![InfluxDB](https://img.shields.io/badge/InfluxDB-2.x-blue)
+![InfluxDB](https://img.shields.io/badge/InfluxDB-1.x-blue)
 ![RaspberryPi](https://img.shields.io/badge/Raspberry_Pi-4B-red)
 
 ## Table of Contents
